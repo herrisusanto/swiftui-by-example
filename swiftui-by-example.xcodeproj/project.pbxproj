@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F0DF48C2B6B8E0700549C84 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DF48B2B6B8E0700549C84 /* AuthView.swift */; };
+		0F0DF48F2B6B8F1F00549C84 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DF48E2B6B8F1F00549C84 /* CustomCorners.swift */; };
+		0F0DF4912B6B95C500549C84 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DF4902B6B95C500549C84 /* CustomTextField.swift */; };
+		0F0DF4942B6B992400549C84 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DF4932B6B992400549C84 /* AuthViewModel.swift */; };
 		0F45ABB92B6B66B30024ADB1 /* SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F45ABB82B6B66B30024ADB1 /* SwiftUIApp.swift */; };
 		0F45ABBB2B6B66B30024ADB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F45ABBA2B6B66B30024ADB1 /* ContentView.swift */; };
 		0F45ABBD2B6B66B50024ADB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F45ABBC2B6B66B50024ADB1 /* Assets.xcassets */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F0DF48B2B6B8E0700549C84 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		0F0DF48E2B6B8F1F00549C84 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
+		0F0DF4902B6B95C500549C84 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		0F0DF4932B6B992400549C84 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
 		0F45ABB52B6B66B30024ADB1 /* swiftui-by-example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swiftui-by-example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F45ABB82B6B66B30024ADB1 /* SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIApp.swift; sourceTree = "<group>"; };
 		0F45ABBA2B6B66B30024ADB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -43,6 +51,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F0DF4892B6B8DDB00549C84 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				0F0DF4922B6B991000549C84 /* ViewModel */,
+				0F0DF48A2B6B8DE800549C84 /* View */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		0F0DF48A2B6B8DE800549C84 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F0DF48B2B6B8E0700549C84 /* AuthView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F0DF48D2B6B8F0C00549C84 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				0F0DF48E2B6B8F1F00549C84 /* CustomCorners.swift */,
+				0F0DF4902B6B95C500549C84 /* CustomTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		0F0DF4922B6B991000549C84 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F0DF4932B6B992400549C84 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		0F45ABAC2B6B66B30024ADB1 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +133,8 @@
 		0F45ABC72B6B670C0024ADB1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0F0DF48D2B6B8F0C00549C84 /* Components */,
+				0F0DF4892B6B8DDB00549C84 /* Auth */,
 				0F9978262B6B6DE60054491D /* Shared */,
 				0F9978222B6B6B200054491D /* OnBoarding */,
 			);
@@ -214,7 +258,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F9978252B6B6B510054491D /* FirstOnBoardingView.swift in Sources */,
+				0F0DF48F2B6B8F1F00549C84 /* CustomCorners.swift in Sources */,
+				0F0DF48C2B6B8E0700549C84 /* AuthView.swift in Sources */,
 				0F9978312B6B791D0054491D /* CustomFont.swift in Sources */,
+				0F0DF4942B6B992400549C84 /* AuthViewModel.swift in Sources */,
+				0F0DF4912B6B95C500549C84 /* CustomTextField.swift in Sources */,
 				0F45ABBB2B6B66B30024ADB1 /* ContentView.swift in Sources */,
 				0F45ABB92B6B66B30024ADB1 /* SwiftUIApp.swift in Sources */,
 			);

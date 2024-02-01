@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct FirstOnBoardingView: View {
+    
+    @State var showLoginView: Bool = false
+    
     var body: some View {
         VStack {
             Spacer()
@@ -20,7 +23,7 @@ struct FirstOnBoardingView: View {
                 Text("Money")
                     .foregroundStyle(.white)
                 Text("Moora")
-                    .foregroundStyle(Color("Pink"))
+                    .foregroundStyle(Color("PrimaryPink"))
                 
             }
             .font(.custom(CustomFont.bold, size: 36))
@@ -36,11 +39,13 @@ struct FirstOnBoardingView: View {
             Spacer()
             
             Button{
-                
+                withAnimation {
+                    showLoginView.toggle()
+                }
             }label: {
                 Text("Get Started Now!")
                     .font(.custom(CustomFont.regular, size: 20))
-                    .foregroundStyle(Color("Pink"))
+                    .foregroundStyle(Color("PrimaryPink"))
                     .fontWeight(.bold)
                     .padding(.vertical, 18)
                     .frame(maxWidth: .infinity)
@@ -53,10 +58,25 @@ struct FirstOnBoardingView: View {
         }
         .padding()
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color("Blue"))
+        .background(Color("PrimaryBlue"))
+        .overlay {
+            Group {
+                if showLoginView {
+                    AuthView()
+                        .transition(.move(edge: .bottom))
+                }
+            }
+        }
     }
 }
 
 #Preview {
     FirstOnBoardingView()
+}
+
+
+extension View {
+    func getRect() -> CGRect {
+        return UIScreen.main.bounds
+    }
 }
