@@ -15,7 +15,7 @@ struct AuthView: View {
         VStack {
             VStack {
                 Text("Welcome\nBack")
-                    .font(.custom(CustomFont.regular, size: 55).bold())
+                    .font(.custom(CustomFont.regular, size: 55).bold()) 
                     .foregroundStyle(.white)
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .frame(height: getRect().height / 3.5)

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F05A2DB2B73A80B00702E87 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05A2DA2B73A80B00702E87 /* PasscodeView.swift */; };
+		0F05A2DD2B73A8A000702E87 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05A2DC2B73A8A000702E87 /* NumberPadView.swift */; };
+		0F05A2DF2B73BF1900702E87 /* PasscodeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05A2DE2B73BF1900702E87 /* PasscodeIndicatorView.swift */; };
 		0F0DF48C2B6B8E0700549C84 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DF48B2B6B8E0700549C84 /* AuthView.swift */; };
 		0F0DF48F2B6B8F1F00549C84 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DF48E2B6B8F1F00549C84 /* CustomCorners.swift */; };
 		0F0DF4912B6B95C500549C84 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DF4902B6B95C500549C84 /* CustomTextField.swift */; };
@@ -23,6 +26,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F05A2DA2B73A80B00702E87 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
+		0F05A2DC2B73A8A000702E87 /* NumberPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
+		0F05A2DE2B73BF1900702E87 /* PasscodeIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeIndicatorView.swift; sourceTree = "<group>"; };
 		0F0DF48B2B6B8E0700549C84 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		0F0DF48E2B6B8F1F00549C84 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 		0F0DF4902B6B95C500549C84 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -51,6 +57,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F05A2D82B73A7F100702E87 /* Passcode */ = {
+			isa = PBXGroup;
+			children = (
+				0F05A2D92B73A7F800702E87 /* View */,
+			);
+			path = Passcode;
+			sourceTree = "<group>";
+		};
+		0F05A2D92B73A7F800702E87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F05A2DA2B73A80B00702E87 /* PasscodeView.swift */,
+				0F05A2DC2B73A8A000702E87 /* NumberPadView.swift */,
+				0F05A2DE2B73BF1900702E87 /* PasscodeIndicatorView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0F0DF4892B6B8DDB00549C84 /* Auth */ = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +157,7 @@
 		0F45ABC72B6B670C0024ADB1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0F05A2D82B73A7F100702E87 /* Passcode */,
 				0F0DF48D2B6B8F0C00549C84 /* Components */,
 				0F0DF4892B6B8DDB00549C84 /* Auth */,
 				0F9978262B6B6DE60054491D /* Shared */,
@@ -263,7 +288,10 @@
 				0F9978312B6B791D0054491D /* CustomFont.swift in Sources */,
 				0F0DF4942B6B992400549C84 /* AuthViewModel.swift in Sources */,
 				0F0DF4912B6B95C500549C84 /* CustomTextField.swift in Sources */,
+				0F05A2DB2B73A80B00702E87 /* PasscodeView.swift in Sources */,
+				0F05A2DD2B73A8A000702E87 /* NumberPadView.swift in Sources */,
 				0F45ABBB2B6B66B30024ADB1 /* ContentView.swift in Sources */,
+				0F05A2DF2B73BF1900702E87 /* PasscodeIndicatorView.swift in Sources */,
 				0F45ABB92B6B66B30024ADB1 /* SwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
