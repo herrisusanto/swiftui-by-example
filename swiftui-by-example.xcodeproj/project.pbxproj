@@ -10,6 +10,11 @@
 		0F05A2DB2B73A80B00702E87 /* PasscodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05A2DA2B73A80B00702E87 /* PasscodeView.swift */; };
 		0F05A2DD2B73A8A000702E87 /* NumberPadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05A2DC2B73A8A000702E87 /* NumberPadView.swift */; };
 		0F05A2DF2B73BF1900702E87 /* PasscodeIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05A2DE2B73BF1900702E87 /* PasscodeIndicatorView.swift */; };
+		0F05A2E52B73C9E800702E87 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05A2E42B73C9E800702E87 /* HomeView.swift */; };
+		0F05A2EA2B73CB1D00702E87 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05A2E92B73CB1D00702E87 /* SideMenuView.swift */; };
+		0F05A2EC2B73D07100702E87 /* SideMenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05A2EB2B73D07000702E87 /* SideMenuHeaderView.swift */; };
+		0F05A2EE2B73D4CA00702E87 /* SideMenuRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05A2ED2B73D4CA00702E87 /* SideMenuRowView.swift */; };
+		0F05A2F02B73D5AA00702E87 /* SideMenuOptionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F05A2EF2B73D5AA00702E87 /* SideMenuOptionModel.swift */; };
 		0F0DF48C2B6B8E0700549C84 /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DF48B2B6B8E0700549C84 /* AuthView.swift */; };
 		0F0DF48F2B6B8F1F00549C84 /* CustomCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DF48E2B6B8F1F00549C84 /* CustomCorners.swift */; };
 		0F0DF4912B6B95C500549C84 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F0DF4902B6B95C500549C84 /* CustomTextField.swift */; };
@@ -29,6 +34,11 @@
 		0F05A2DA2B73A80B00702E87 /* PasscodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeView.swift; sourceTree = "<group>"; };
 		0F05A2DC2B73A8A000702E87 /* NumberPadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberPadView.swift; sourceTree = "<group>"; };
 		0F05A2DE2B73BF1900702E87 /* PasscodeIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasscodeIndicatorView.swift; sourceTree = "<group>"; };
+		0F05A2E42B73C9E800702E87 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		0F05A2E92B73CB1D00702E87 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		0F05A2EB2B73D07000702E87 /* SideMenuHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuHeaderView.swift; sourceTree = "<group>"; };
+		0F05A2ED2B73D4CA00702E87 /* SideMenuRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuRowView.swift; sourceTree = "<group>"; };
+		0F05A2EF2B73D5AA00702E87 /* SideMenuOptionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuOptionModel.swift; sourceTree = "<group>"; };
 		0F0DF48B2B6B8E0700549C84 /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
 		0F0DF48E2B6B8F1F00549C84 /* CustomCorners.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCorners.swift; sourceTree = "<group>"; };
 		0F0DF4902B6B95C500549C84 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
@@ -73,6 +83,49 @@
 				0F05A2DE2B73BF1900702E87 /* PasscodeIndicatorView.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0F05A2E02B73C9B900702E87 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0F05A2E62B73CAE800702E87 /* ViewModel */,
+				0F05A2E12B73C9CD00702E87 /* View */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		0F05A2E12B73C9CD00702E87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F05A2E92B73CB1D00702E87 /* SideMenuView.swift */,
+				0F05A2EB2B73D07000702E87 /* SideMenuHeaderView.swift */,
+				0F05A2ED2B73D4CA00702E87 /* SideMenuRowView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F05A2E22B73C9D500702E87 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0F05A2E32B73C9DD00702E87 /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		0F05A2E32B73C9DD00702E87 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0F05A2E42B73C9E800702E87 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0F05A2E62B73CAE800702E87 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				0F05A2EF2B73D5AA00702E87 /* SideMenuOptionModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		0F0DF4892B6B8DDB00549C84 /* Auth */ = {
@@ -157,6 +210,8 @@
 		0F45ABC72B6B670C0024ADB1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0F05A2E22B73C9D500702E87 /* Home */,
+				0F05A2E02B73C9B900702E87 /* SideMenu */,
 				0F05A2D82B73A7F100702E87 /* Passcode */,
 				0F0DF48D2B6B8F0C00549C84 /* Components */,
 				0F0DF4892B6B8DDB00549C84 /* Auth */,
@@ -283,14 +338,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F9978252B6B6B510054491D /* FirstOnBoardingView.swift in Sources */,
+				0F05A2EC2B73D07100702E87 /* SideMenuHeaderView.swift in Sources */,
+				0F05A2EE2B73D4CA00702E87 /* SideMenuRowView.swift in Sources */,
 				0F0DF48F2B6B8F1F00549C84 /* CustomCorners.swift in Sources */,
 				0F0DF48C2B6B8E0700549C84 /* AuthView.swift in Sources */,
+				0F05A2EA2B73CB1D00702E87 /* SideMenuView.swift in Sources */,
 				0F9978312B6B791D0054491D /* CustomFont.swift in Sources */,
 				0F0DF4942B6B992400549C84 /* AuthViewModel.swift in Sources */,
+				0F05A2F02B73D5AA00702E87 /* SideMenuOptionModel.swift in Sources */,
 				0F0DF4912B6B95C500549C84 /* CustomTextField.swift in Sources */,
 				0F05A2DB2B73A80B00702E87 /* PasscodeView.swift in Sources */,
 				0F05A2DD2B73A8A000702E87 /* NumberPadView.swift in Sources */,
 				0F45ABBB2B6B66B30024ADB1 /* ContentView.swift in Sources */,
+				0F05A2E52B73C9E800702E87 /* HomeView.swift in Sources */,
 				0F05A2DF2B73BF1900702E87 /* PasscodeIndicatorView.swift in Sources */,
 				0F45ABB92B6B66B30024ADB1 /* SwiftUIApp.swift in Sources */,
 			);
