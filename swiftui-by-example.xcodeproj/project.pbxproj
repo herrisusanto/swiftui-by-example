@@ -28,6 +28,10 @@
 		0F5B2EEB2B75C9FC00AC55CA /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B2EEA2B75C9FC00AC55CA /* Expense.swift */; };
 		0F5B2EED2B75CAFC00AC55CA /* HomeAnimatedScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B2EEC2B75CAFC00AC55CA /* HomeAnimatedScrollView.swift */; };
 		0F5B2EEF2B75CFE100AC55CA /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B2EEE2B75CFE100AC55CA /* Card.swift */; };
+		0F5B2EF12B761E7500AC55CA /* TripCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B2EF02B761E7500AC55CA /* TripCard.swift */; };
+		0F5B2EF32B761F8800AC55CA /* HomeParallaxCarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B2EF22B761F8800AC55CA /* HomeParallaxCarouselView.swift */; };
+		0F5B2EF52B76359700AC55CA /* HomeScrollToHideTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B2EF42B76359700AC55CA /* HomeScrollToHideTabBarView.swift */; };
+		0F5B2EF82B76414C00AC55CA /* TabStateScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B2EF72B76414C00AC55CA /* TabStateScrollView.swift */; };
 		0F9978252B6B6B510054491D /* FirstOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9978242B6B6B510054491D /* FirstOnBoardingView.swift */; };
 		0F9978292B6B6E380054491D /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9978282B6B6E380054491D /* Raleway-Bold.ttf */; };
 		0F99782B2B6B6E490054491D /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F99782A2B6B6E490054491D /* Raleway-Regular.ttf */; };
@@ -58,6 +62,10 @@
 		0F5B2EEA2B75C9FC00AC55CA /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
 		0F5B2EEC2B75CAFC00AC55CA /* HomeAnimatedScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimatedScrollView.swift; sourceTree = "<group>"; };
 		0F5B2EEE2B75CFE100AC55CA /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		0F5B2EF02B761E7500AC55CA /* TripCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripCard.swift; sourceTree = "<group>"; };
+		0F5B2EF22B761F8800AC55CA /* HomeParallaxCarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeParallaxCarouselView.swift; sourceTree = "<group>"; };
+		0F5B2EF42B76359700AC55CA /* HomeScrollToHideTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScrollToHideTabBarView.swift; sourceTree = "<group>"; };
+		0F5B2EF72B76414C00AC55CA /* TabStateScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabStateScrollView.swift; sourceTree = "<group>"; };
 		0F9978242B6B6B510054491D /* FirstOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingView.swift; sourceTree = "<group>"; };
 		0F9978282B6B6E380054491D /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
 		0F99782A2B6B6E490054491D /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
@@ -117,6 +125,7 @@
 		0F05A2E22B73C9D500702E87 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				0F5B2EF62B76413900AC55CA /* Helpers */,
 				0F05A2E32B73C9DD00702E87 /* View */,
 			);
 			path = Home;
@@ -128,6 +137,8 @@
 				0F05A2E42B73C9E800702E87 /* HomeView.swift */,
 				0F5B2EE82B75C0C100AC55CA /* HomeAnimatedView.swift */,
 				0F5B2EEC2B75CAFC00AC55CA /* HomeAnimatedScrollView.swift */,
+				0F5B2EF22B761F8800AC55CA /* HomeParallaxCarouselView.swift */,
+				0F5B2EF42B76359700AC55CA /* HomeScrollToHideTabBarView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -240,8 +251,17 @@
 				0F5B2EE62B75BF7A00AC55CA /* Tab.swift */,
 				0F5B2EEA2B75C9FC00AC55CA /* Expense.swift */,
 				0F5B2EEE2B75CFE100AC55CA /* Card.swift */,
+				0F5B2EF02B761E7500AC55CA /* TripCard.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		0F5B2EF62B76413900AC55CA /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0F5B2EF72B76414C00AC55CA /* TabStateScrollView.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		0F9978222B6B6B200054491D /* OnBoarding */ = {
@@ -367,11 +387,15 @@
 				0F5B2EE92B75C0C100AC55CA /* HomeAnimatedView.swift in Sources */,
 				0F0DF48F2B6B8F1F00549C84 /* CustomCorners.swift in Sources */,
 				0F0DF48C2B6B8E0700549C84 /* AuthView.swift in Sources */,
+				0F5B2EF32B761F8800AC55CA /* HomeParallaxCarouselView.swift in Sources */,
 				0F05A2EA2B73CB1D00702E87 /* SideMenuView.swift in Sources */,
+				0F5B2EF82B76414C00AC55CA /* TabStateScrollView.swift in Sources */,
 				0F9978312B6B791D0054491D /* CustomFont.swift in Sources */,
 				0F5B2EED2B75CAFC00AC55CA /* HomeAnimatedScrollView.swift in Sources */,
 				0F0DF4942B6B992400549C84 /* AuthViewModel.swift in Sources */,
 				0F05A2F02B73D5AA00702E87 /* SideMenuOptionModel.swift in Sources */,
+				0F5B2EF12B761E7500AC55CA /* TripCard.swift in Sources */,
+				0F5B2EF52B76359700AC55CA /* HomeScrollToHideTabBarView.swift in Sources */,
 				0F0DF4912B6B95C500549C84 /* CustomTextField.swift in Sources */,
 				0F05A2DB2B73A80B00702E87 /* PasscodeView.swift in Sources */,
 				0F05A2DD2B73A8A000702E87 /* NumberPadView.swift in Sources */,
