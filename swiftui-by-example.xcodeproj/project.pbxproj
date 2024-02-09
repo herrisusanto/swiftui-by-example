@@ -23,6 +23,8 @@
 		0F45ABBB2B6B66B30024ADB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F45ABBA2B6B66B30024ADB1 /* ContentView.swift */; };
 		0F45ABBD2B6B66B50024ADB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F45ABBC2B6B66B50024ADB1 /* Assets.xcassets */; };
 		0F45ABC02B6B66B50024ADB1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F45ABBF2B6B66B50024ADB1 /* Preview Assets.xcassets */; };
+		0F5B2EE72B75BF7A00AC55CA /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B2EE62B75BF7A00AC55CA /* Tab.swift */; };
+		0F5B2EE92B75C0C100AC55CA /* HomeAnimatedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5B2EE82B75C0C100AC55CA /* HomeAnimatedView.swift */; };
 		0F9978252B6B6B510054491D /* FirstOnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9978242B6B6B510054491D /* FirstOnBoardingView.swift */; };
 		0F9978292B6B6E380054491D /* Raleway-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F9978282B6B6E380054491D /* Raleway-Bold.ttf */; };
 		0F99782B2B6B6E490054491D /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0F99782A2B6B6E490054491D /* Raleway-Regular.ttf */; };
@@ -48,6 +50,8 @@
 		0F45ABBA2B6B66B30024ADB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0F45ABBC2B6B66B50024ADB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F45ABBF2B6B66B50024ADB1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0F5B2EE62B75BF7A00AC55CA /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		0F5B2EE82B75C0C100AC55CA /* HomeAnimatedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeAnimatedView.swift; sourceTree = "<group>"; };
 		0F9978242B6B6B510054491D /* FirstOnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnBoardingView.swift; sourceTree = "<group>"; };
 		0F9978282B6B6E380054491D /* Raleway-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Bold.ttf"; sourceTree = "<group>"; };
 		0F99782A2B6B6E490054491D /* Raleway-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Raleway-Regular.ttf"; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				0F05A2E42B73C9E800702E87 /* HomeView.swift */,
+				0F5B2EE82B75C0C100AC55CA /* HomeAnimatedView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -210,6 +215,7 @@
 		0F45ABC72B6B670C0024ADB1 /* Core */ = {
 			isa = PBXGroup;
 			children = (
+				0F5B2EE52B75BF6400AC55CA /* Model */,
 				0F05A2E22B73C9D500702E87 /* Home */,
 				0F05A2E02B73C9B900702E87 /* SideMenu */,
 				0F05A2D82B73A7F100702E87 /* Passcode */,
@@ -219,6 +225,14 @@
 				0F9978222B6B6B200054491D /* OnBoarding */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		0F5B2EE52B75BF6400AC55CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0F5B2EE62B75BF7A00AC55CA /* Tab.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		0F9978222B6B6B200054491D /* OnBoarding */ = {
@@ -338,8 +352,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F9978252B6B6B510054491D /* FirstOnBoardingView.swift in Sources */,
+				0F5B2EE72B75BF7A00AC55CA /* Tab.swift in Sources */,
 				0F05A2EC2B73D07100702E87 /* SideMenuHeaderView.swift in Sources */,
 				0F05A2EE2B73D4CA00702E87 /* SideMenuRowView.swift in Sources */,
+				0F5B2EE92B75C0C100AC55CA /* HomeAnimatedView.swift in Sources */,
 				0F0DF48F2B6B8F1F00549C84 /* CustomCorners.swift in Sources */,
 				0F0DF48C2B6B8E0700549C84 /* AuthView.swift in Sources */,
 				0F05A2EA2B73CB1D00702E87 /* SideMenuView.swift in Sources */,
